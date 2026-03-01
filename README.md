@@ -2,6 +2,39 @@
 
 An autonomous maze-solving robot built using **Raspberry Pi Pico 2**.  
 Designed for high-speed navigation using the **Flood Fill Algorithm**.
+---
+## 🧠 Microcontroller – Raspberry Pi Pico 2
+
+The Maze Solver is built using the **Raspberry Pi Pico 2**, a powerful and efficient microcontroller board designed for embedded systems applications.
+
+### 🔹 Core Specifications
+
+- **Microcontroller:** RP2350
+- **CPU:** Dual-core Arm Cortex-M33
+- **Clock Speed:** Up to 150 MHz
+- **RAM:** 520 KB SRAM
+- **Flash Memory:** 4 MB (external QSPI flash)
+- **Operating Voltage:** 3.3V logic
+- **Input Voltage:** 1.8V – 5.5V (via VSYS)
+
+### 🔹 GPIO & Peripherals
+
+- **Total GPIO Pins:** 26 usable GPIO
+- **PWM Channels:** Available on all GPIO pins
+- **I2C Interfaces:** 2
+- **SPI Interfaces:** 2
+- **UART Interfaces:** 2
+- **ADC Channels:** 3 (12-bit resolution)
+- **Timers:** Hardware timers + watchdog
+- **USB:** USB 1.1 controller
+
+### 🔹 Why Pico 2 for Micromouse?
+
+- High clock speed for fast flood-fill computation
+- Dual-core architecture (control + algorithm separation possible)
+- Enough GPIO for motors, encoders, sensors, and buttons
+- Lightweight and low power consumption
+- Reliable for real-time embedded robotics applications
 
 ---
 
@@ -21,7 +54,7 @@ The robot explores the maze, builds a distance map using Flood Fill, and calcula
 - 🧠 Intelligent path optimization
 - 🔄 Multi-run learning capability
 - 📊 Encoder-based motion control
-- 📡 Wall detection using IR sensors
+- 📡 Wall detection using TOF sensors
 
 ---
 
