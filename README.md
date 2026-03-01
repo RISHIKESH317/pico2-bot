@@ -39,7 +39,7 @@ The robot explores the maze, builds a distance map using Flood Fill, and calcula
 
 ---
 
-## 🔌 Connection Table
+
 
 ## 🔌 Pin Configuration
 
@@ -117,4 +117,3 @@ This project uses the **Flood Fill Algorithm**:
 
 ---
 
-## 📂 Project Structure
