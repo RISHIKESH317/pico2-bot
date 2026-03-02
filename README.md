@@ -69,6 +69,7 @@ The robot explores the maze, builds a distance map using Flood Fill, and calcula
 | Motors | N20 motors with encoder (2 motors) |
 | Sensors | VL6180X TOF sensors (front, left, right) |
 | Power | 7.4V Li-ion Battery |
+|wheel | 34 X 6.5 mm (diameter x width) |
 
 ---
 
