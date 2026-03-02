@@ -40,6 +40,6 @@
 
 // Sensor thresholds (in mm) to decide if a wall is present
 #define WALL_THRESHOLD_FRONT  60
-#define WALL_THRESHOLD_SIDE   50
+#define WALL_THRESHOLD_SIDE   35
 
 #endif  // CONFIGURATION_H
